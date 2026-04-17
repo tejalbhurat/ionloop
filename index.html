@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IONLOOP | Infinite Energy. Intelligent Flow.</title>
+    <meta name="description"
+        content="IONLOOP is a smart EV charging system that creates a continuous energy loop using solar power, hydrogen storage, and AI-based energy switching.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="IONLOOP Logo" class="logo-image">
+                <span>IONLOOP</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="particles"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="hero-badge">Next-Gen EV Infrastructure</div>
+                <h1>Reinventing EV Charging with <span class="text-gradient">Intelligent Energy</span></h1>
+                <p class="subtext">IONLOOP delivers uninterrupted, clean power using solar energy, hydrogen storage, and
+                    real-time AI optimization.</p>
+                <div class="hero-actions">
+                    <a href="#technology" class="btn btn-primary">Explore Technology</a>
+                    <a href="#contact" class="btn btn-outline">Request Demo</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="loop-container">
+                    <img src="assets/hero.png" alt="IONLOOP Energy Loop" class="abstract-image">
+                    <div class="animated-ring ring-1"></div>
+                    <div class="animated-ring ring-2"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="problem" id="problem">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">The EV Charging <span class="text-accent">Bottleneck</span></h2>
+                <p>Traditional grid reliance causes delays and instability.</p>
+            </div>
+            <div class="grid-3 problem-grid">
+                <div class="card fade-in-up" style="transition-delay: 0.1s">
+                    <div class="card-icon">⚡</div>
+                    <h3>Grid Instability</h3>
+                    <p>Overloaded local grids lead to unpredictable charging speeds and blackouts.</p>
+                </div>
+                <div class="card fade-in-up" style="transition-delay: 0.2s">
+                    <div class="card-icon">🕒</div>
+                    <h3>Peak-Hour Slowdowns</h3>
+                    <p>High demand during peak hours severely limits power availability for EVs.</p>
+                </div>
+                <div class="card fade-in-up" style="transition-delay: 0.3s">
+                    <div class="card-icon">🏭</div>
+                    <h3>Fossil Fuel Dependency</h3>
+                    <p>Most "clean" EVs are still powered by carbon-heavy energy sources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution" id="technology">
+        <div class="container solution-container">
+            <div class="solution-content fade-in-up">
+                <h2 class="section-title">A Continuous <span class="text-primary">Energy Loop</span></h2>
+                <p class="section-desc">We decouple EV charging from the grid by creating an autonomous, self-sustaining
+                    microgrid.</p>
+
+                <ul class="feature-list">
+                    <li>
+                        <div class="list-icon">☀️</div>
+                        <div class="list-text">
+                            <h4>Solar Energy Capture</h4>
+                            <p>High-efficiency arrays capture and utilize solar energy during the day.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-icon">🔋</div>
+                        <div class="list-text">
+                            <h4>Hydrogen Conversion</h4>
+                            <p>Excess energy is stored via on-site electrolysis into green hydrogen.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-icon">🔄</div>
+                        <div class="list-text">
+                            <h4>Fuel Cell Regeneration</h4>
+                            <p>Stored hydrogen powers fuel cells to provide continuous charging at night.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="solution-visual fade-in">
+                <div class="image-wrapper glow-box">
+                    <img src="assets/solution.png" alt="Solution Flow Diagram" class="abstract-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Innovation -->
+    <section class="innovation">
+        <div class="container">
+            <div class="innovation-layout">
+                <div class="innovation-visual fade-in">
+                    <div class="ai-dashboard glow-box">
+                        <img src="assets/dashboard.png" alt="AI Dashboard UI" class="abstract-image">
+                        <div class="ai-indicators">
+                            <div class="indicator" id="ind-solar">Solar Active</div>
+                            <div class="indicator" id="ind-battery">Battery Charging</div>
+                            <div class="indicator" id="ind-h2">H2 Standby</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-content fade-in-up">
+                    <div class="hero-badge">Core Innovation</div>
+                    <h2 class="section-title">AI Smart Energy Switching</h2>
+                    <p class="section-desc">IONLOOP uses a proprietary AI engine to dynamically select between solar,
+                        battery, and hydrogen in real time. It predicts demand, analyzes weather patterns, and optimizes
+                        for maximum efficiency and zero downtime.</p>
+                    
+                    <div class="live-data-grid">
+                        <div class="data-box"><span class="data-label">Solar</span><span class="data-value" id="val-solar">-- kWh</span></div>
+                        <div class="data-box"><span class="data-label">Battery</span><span class="data-value" id="val-battery">-- %</span></div>
+                        <div class="data-box"><span class="data-label">Hydrogen</span><span class="data-value" id="val-h2">-- %</span></div>
+                        <div class="data-box"><span class="data-label">Demand</span><span class="data-value" id="val-demand">-- kW</span></div>
+                        <div class="data-box highlight"><span class="data-label">Total Generated</span><span class="data-value" id="val-total">-- kWh</span></div>
+                        <div class="data-box highlight"><span class="data-label">System Efficiency</span><span class="data-value" id="val-efficiency">-- %</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Why Choose <span class="text-gradient">IONLOOP</span></h2>
+            </div>
+            <div class="grid-4 benefits-grid">
+                <div class="benefit-card fade-in-up" style="transition-delay: 0.1s">
+                    <div class="benefit-number">01</div>
+                    <h4>24/7 Reliable Charging</h4>
+                    <p>Uninterrupted fast-charging regardless of local grid conditions or weather.</p>
+                </div>
+                <div class="benefit-card fade-in-up" style="transition-delay: 0.2s">
+                    <div class="benefit-number">02</div>
+                    <h4>100% Clean Energy</h4>
+                    <p>True zero-emission charging powered entirely by renewable sources.</p>
+                </div>
+                <div class="benefit-card fade-in-up" style="transition-delay: 0.3s">
+                    <div class="benefit-number">03</div>
+                    <h4>Reduced Grid Dependency</h4>
+                    <p>Minimize peak-hour tariffs and avoid costly grid infrastructure upgrades.</p>
+                </div>
+                <div class="benefit-card fade-in-up" style="transition-delay: 0.4s">
+                    <div class="benefit-number">04</div>
+                    <h4>Long-Term Efficiency</h4>
+                    <p>Lower operating costs through intelligent energy arbitrage and storage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">The Energy <span class="text-primary">Flow</span></h2>
+            </div>
+
+            <div class="timeline-container fade-in-up">
+                <div class="flow-line">
+                    <div class="flow-progress"></div>
+                </div>
+                <div class="timeline-steps">
+                    <div class="step">
+                        <div class="step-dot glow-primary"></div>
+                        <div class="step-content">
+                            <h4>Capture</h4>
+                            <p>Solar arrays gather energy</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-dot glow-secondary"></div>
+                        <div class="step-content">
+                            <h4>Store</h4>
+                            <p>Excess routed to batteries</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-dot glow-accent"></div>
+                        <div class="step-content">
+                            <h4>Convert</h4>
+                            <p>Long-term H2 electrolysis</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-dot glow-primary"></div>
+                        <div class="step-content">
+                            <h4>Deliver</h4>
+                            <p>Fast-charging output</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Model -->
+    <section class="business-model">
+        <div class="container">
+            <div class="business-card glow-box fade-in">
+                <div class="business-content">
+                    <h2 class="section-title">Scalable Infrastructure</h2>
+                    <p>We partner with EV charging network operators, commercial real estate developers, and local
+                        governments to deploy IONLOOP microgrids.</p>
+
+                    <div class="revenue-streams">
+                        <div class="stream">
+                            <span class="check text-secondary">✓</span> Turnkey Installation
+                        </div>
+                        <div class="stream">
+                            <span class="check text-secondary">✓</span> Ongoing Maintenance
+                        </div>
+                        <div class="stream">
+                            <span class="check text-secondary">✓</span> AI Monitoring SaaS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta" id="contact">
+        <div class="container text-center fade-in-up">
+            <h2 class="cta-title">Power the Future with IONLOOP</h2>
+            <p class="cta-desc">Join the revolution in intelligent, decentralized EV charging infrastructure.</p>
+            <form action="https://formsubmit.co/tejalbhurat@gmail.com" method="POST" class="inline-form">
+                <!-- Disable captcha for better UX -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Custom Subject -->
+                <input type="hidden" name="_subject" value="New Contact Request from IONLOOP Website!">
+                
+                <input type="email" name="email" id="contact-email" placeholder="Enter your email to connect" required>
+                <button type="submit" class="btn btn-primary btn-large">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="assets/logo.png" alt="IONLOOP Logo" class="logo-image">
+                        <span>IONLOOP</span>
+                    </a>
+                    <p>Infinite Energy. Intelligent Flow.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">News</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <a href="#">Technology</a>
+                        <a href="#">Use Cases</a>
+                        <a href="#">Specs</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Contact</h4>
+                        <a href="mailto:tejalbhurat@gmail.com">tejalbhurat@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 IONLOOP Technologies Inc. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="toast-container"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
